@@ -1,0 +1,114 @@
+.teacher-admin-dashboard {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.teacher-admin-dashboard .dashboard-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+}
+
+.teacher-admin-dashboard .dashboard-info {
+  display: flex;
+  justify-content: space-around;
+  height: auto;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.teacher-admin-dashboard .info-card {
+  flex-shrink: 0;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  text-align: center;
+}
+
+.teacher-admin-dashboard .info-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+
+.teacher-admin-dashboard .info-card p {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.teacher-admin-dashboard .dashboard-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.teacher-admin-dashboard .add-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.teacher-admin-dashboard .add-button:hover {
+  background-color: #0056b3;
+}
+
+.teacher-admin-dashboard .button-link {
+  text-decoration: none;
+}
+
+.dropdown-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.dropdown-container h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.dropdown-container .dropdown {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.dropdown-container .dropdown option {
+  padding: 10px;
+}
+
+.dropdown-container p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-top: 20px;
+}
+
+
+.detail-container {
+  width: fit-content;
+  margin: auto;
+  min-height: 100vh;
+  font-size: 1.2rem;
+}

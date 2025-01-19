@@ -1,0 +1,96 @@
+/* General Container Styling */
+.add-forms-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+}
+
+/* Title Styling */
+.add-forms-container .form-title {
+    font-size: 24px;
+    text-align: center;
+    color: #34495e;
+    margin-bottom: 20px;
+}
+
+/* Form Wrapper */
+.add-forms-container .form-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Form Section Styling */
+.add-forms-container .form-section {
+    flex: 1;
+    min-width: 350px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-forms-container .form-section h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+}
+
+/* Form Group Styling */
+.add-forms-container .form-group {
+    margin-bottom: 15px;
+}
+
+.add-forms-container .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.add-forms-container .form-group input {
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    outline: none;
+}
+
+.add-forms-container .form-group input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.5);
+}
+
+/* Submit Button */
+.add-forms-container .submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-forms-container .submit-button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .add-forms-container .form-wrapper {
+        flex-direction: column;
+    }
+
+    .add-forms-container .form-section {
+        min-width: unset;
+    }
+}

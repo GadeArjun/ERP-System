@@ -1,0 +1,51 @@
+.quizzes {
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    min-height: 100%;
+}
+
+.quizzes .quiz-setup,
+.quizzes .question-section,
+.quizzes .save-section {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quizzes label {
+    display: block;
+    margin: 10px 0;
+}
+
+.quizzes input,
+.quizzes select {
+    width: 97%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.quizzes .options {
+    margin-top: 10px;
+}
+
+.quizzes .start-btn,
+.quizzes .add-btn,
+.quizzes .save-btn {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.quizzes .start-btn:hover,
+.quizzes .add-btn:hover,
+.quizzes .save-btn:hover {
+    background-color: #004494;
+}

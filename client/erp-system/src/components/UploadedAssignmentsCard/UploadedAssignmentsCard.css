@@ -1,0 +1,70 @@
+.uploaded-assignments-card {
+    background-color: #f9f9fc;
+    border: 1px solid #dfe3f0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    font-family: 'Roboto', sans-serif;
+}
+
+.uploaded-assignments-card:hover {
+    transform: scale(1.02);
+}
+
+.assignment-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2a3d6e;
+    margin-bottom: 8px;
+}
+
+.assignment-details p {
+    font-size: 16px;
+    margin: 6px 0;
+    color: #4f4f4f;
+}
+
+.assignment-details p strong {
+    color: #333;
+}
+
+.download-button {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3b5998;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    margin-top: 8px;
+    transition: background-color 0.2s ease;
+}
+
+.download-button:hover {
+    background-color: #2a3d6e;
+}
+
+@media screen and (max-width: 768px) {
+    .uploaded-assignments-card {
+        padding: 12px;
+    }
+
+    .assignment-title {
+        font-size: 18px;
+        word-wrap: break-word;
+        word-break: break-all;
+    }
+
+    .assignment-details p {
+        font-size: 14px;
+    }
+
+    .download-button {
+        font-size: 12px;
+        padding: 8px 14px;
+    }
+}

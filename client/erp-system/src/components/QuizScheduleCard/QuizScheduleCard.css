@@ -1,0 +1,102 @@
+.quiz-schedule-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+
+.tooltip-schedule-card {
+    position: absolute;
+    visibility: hidden;
+    opacity: 0;
+    top: -30px;
+    right: 50%;
+    background-color: #f2f2f2;
+    box-shadow: 0px 2px 4px slategray;
+    border-radius: 10px;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.quiz-schedule-card:hover .tooltip-schedule-card {
+    visibility: visible;
+    opacity: 1;
+}
+
+.quize-today-bliker {
+    position: absolute;
+    right: 17px;
+    top: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    animation: 1s blink-animation infinite ease-in-out 0s;
+}
+
+.quiz-schedule-card:hover {
+    transform: scale(1.02);
+}
+
+.quiz-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333333;
+    width: 90%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.quiz-details {
+    width: 85%;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+
+.quiz-details p {
+    font-size: 16px;
+    margin: 4px 0;
+    color: #555555;
+}
+
+.quiz-details p strong {
+    color: #222222;
+}
+
+@keyframes blink-animation {
+    0% {
+        opacity: 0.5;
+        transform: scale(1.5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .quiz-schedule-card {
+        padding: 12px;
+    }
+
+    .quiz-title {
+        font-size: 18px;
+    }
+
+    .quiz-details p {
+        font-size: 14px;
+    }
+}
