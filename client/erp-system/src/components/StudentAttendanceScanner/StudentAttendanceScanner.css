@@ -1,0 +1,47 @@
+/* Shared styles for both Student and Teacher components */
+.student-attendance-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.input-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.send-attendance-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.qr-code-container,
+.qr-reader-container {
+    margin-top: 20px;
+}
+
+.message {
+    margin-top: 10px;
+    color: green;
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 90%;
+    }
+}

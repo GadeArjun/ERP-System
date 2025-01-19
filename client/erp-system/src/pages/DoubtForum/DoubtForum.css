@@ -1,0 +1,76 @@
+.doubt-forum {
+    width: 80%;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.doubt-forum h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doubt-forum .toggle-view {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.doubt-forum button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.doubt-forum button.active {
+    background-color: #007bff;
+    color: white;
+}
+
+.doubt-forum textarea {
+    min-width: 100%;
+    min-height: 100px;
+    max-width: 100%;
+    max-height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.doubt-forum .ask-question,
+.doubt-forum .provide-solution {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.doubt-forum .question-card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.doubt-forum .answers {
+    margin-top: 10px;
+}
+
+.doubt-forum .answers p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.doubt-forum button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.doubt-forum button:hover {
+    background-color: #0056b3;
+}

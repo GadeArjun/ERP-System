@@ -1,0 +1,75 @@
+.admin-dashboard {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.admin-dashboard h1 {
+  font-size: 2em;
+  color: #2a74b1; /* Blue for the heading */
+  margin-bottom: 20px;
+}
+
+.admin-dashboard h3 {
+  font-size: 1.5em;
+  color: #2a74b1; /* Blue for the sub-headings */
+}
+
+/* Button for Add Teacher */
+.admin-dashboard .add-teacher-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3e9c3d; /* Green for the Add button */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dashboard .add-teacher-button:hover {
+  background-color: #357b2a; /* Darker green on hover */
+}
+
+/* Teacher List */
+.admin-dashboard .teacher-list {
+  margin-top: 20px;
+}
+
+.admin-dashboard .teacher-item {
+  background-color: #fff;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.admin-dashboard .teacher-item span {
+  font-size: 1.2em;
+  color: #333;
+  width: 50%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.admin-dashboard .remove-button {
+  padding: 8px 16px;
+  background-color: #d9534f; /* Red for Remove button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.admin-dashboard .remove-button:hover {
+  background-color: #c12e2a; /* Darker red on hover */
+}

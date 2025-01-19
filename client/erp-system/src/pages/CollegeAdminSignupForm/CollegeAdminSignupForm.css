@@ -1,0 +1,83 @@
+.college-signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f7fa;
+  padding: 20px;
+}
+
+.college-signup-form {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.college-signup-form h2,
+.college-signup-form h3 {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.4);
+}
+
+.signup-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00796b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.signup-btn:hover {
+  background-color: #004d40;
+}
+
+.signup-btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 77, 64, 0.5);
+}
+
+@media (max-width: 480px) {
+  .college-signup-form {
+    padding: 20px;
+  }
+
+  .signup-btn {
+    font-size: 14px;
+  }
+}

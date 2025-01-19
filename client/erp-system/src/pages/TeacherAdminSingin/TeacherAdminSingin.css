@@ -1,0 +1,66 @@
+.teacher-admin-signin-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+}
+
+.teacher-admin-signin-container h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.teacher-admin-signin-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.teacher-admin-signin-form label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.teacher-admin-signin-form input {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.teacher-admin-signin-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.teacher-admin-signin-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.teacher-admin-signin-form button:hover {
+  background-color: #0056b3;
+}
+
+.teacher-admin-signin-form button:active {
+  background-color: #003f7f;
+}
+
+.teacher-admin-signin-form button:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}

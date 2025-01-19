@@ -1,0 +1,95 @@
+/* General Container Styling */
+.add-teacher-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+}
+
+/* Title Styling */
+.add-teacher-container .title {
+    font-size: 24px;
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.add-teacher-container .add-teacher-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Group Styling */
+.add-teacher-container .form-group {
+    margin-bottom: 15px;
+}
+
+.add-teacher-container .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #34495e;
+    margin-bottom: 5px;
+}
+
+.add-teacher-container .form-group input {
+    width: 97%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    outline: none;
+}
+
+.add-teacher-container .form-group input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.5);
+}
+
+.add-teacher-container .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+
+}
+
+
+/* Submit Button Styling */
+.add-teacher-container .submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add-teacher-container .submit-button:hover {
+    background-color: #2980b9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .add-teacher-container .add-teacher-container {
+        padding: 15px;
+    }
+
+    .add-teacher-container .title {
+        font-size: 20px;
+    }
+
+    .add-teacher-container .form-group input {
+        font-size: 13px;
+    }
+
+    .add-teacher-container .submit-button {
+        font-size: 14px;
+    }
+}

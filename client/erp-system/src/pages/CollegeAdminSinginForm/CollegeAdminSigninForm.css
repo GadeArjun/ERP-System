@@ -1,0 +1,78 @@
+.college-signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f3f7fa;
+}
+
+.college-signin-form {
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 450px;
+}
+
+.college-signin-form h2 {
+  text-align: center;
+  color: #00796b;
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b2dfdb;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333333;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #00796b;
+  box-shadow: 0 0 5px rgba(0, 121, 107, 0.4);
+}
+
+.signin-btn {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #00796b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.signin-btn:hover {
+  background-color: #004d40;
+}
+
+.signin-btn:focus {
+  outline: none;
+}

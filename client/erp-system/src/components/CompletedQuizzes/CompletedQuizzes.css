@@ -1,0 +1,57 @@
+/* Container styles */
+.completed-quizzes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Arial", sans-serif;
+    text-align: center;
+}
+
+.completed-quizzes-container h1 {
+    color: #4a76a8;
+    margin-bottom: 20px;
+}
+
+
+
+/* Individual quiz card styles */
+.completed-quizzes-container .quiz-card {
+    background-color: #ffffff;
+    border: 2px solid #4a76a8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin-top: 20px;
+}
+
+.completed-quizzes-container .quiz-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.completed-quizzes-container .quiz-title {
+    font-size: 1.5rem;
+    color: #4a76a8;
+    margin-bottom: 10px;
+}
+
+.completed-quizzes-container .quiz-score {
+    font-size: 1.2rem;
+    color: #2ecc71;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .completed-quizzes-container .quiz-card {
+        padding: 15px;
+    }
+
+    .completed-quizzes-container .quiz-title {
+        font-size: 1.2rem;
+    }
+
+    .completed-quizzes-container .quiz-score {
+        font-size: 1rem;
+    }
+}

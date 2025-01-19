@@ -1,0 +1,91 @@
+.student-dashboard {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.dashboard-header {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.dashboard-header h1 {
+    color: white;
+}
+
+.dashboard-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subjects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+}
+
+.dashboard-section {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.dashboard-section h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.dashboard-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard-section ul li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.dashboard-section ul li:last-child {
+    border-bottom: none;
+}
+
+.mark-attendance-btn {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.std-doubt-forum {
+    position: fixed;
+    bottom: 28px;
+    right: 100px;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 123, 255);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.std-doubt-forum:hover {
+    background-color: blue;
+    transform: scale(1.05);
+}

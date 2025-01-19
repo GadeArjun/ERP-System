@@ -1,0 +1,46 @@
+.ai-floating-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #42a5f5, #1e88e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.ai-floating-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ai-icon {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.ai-tooltip {
+    position: absolute;
+    bottom: 70px;
+    right: 0;
+    background-color: #1e88e5;
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 5px 10px;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.ai-floating-button:hover .ai-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
